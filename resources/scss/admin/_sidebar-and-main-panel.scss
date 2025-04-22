@@ -311,21 +311,16 @@
         }
 
         .photo {
-
-
-            //overflow: hidden;
-            //float: left;
             z-index: 5;
-            margin-right: 11px;
             text-align: center;
-            margin-left: 23px;
+            margin: 10px;
             @include shadow-big();
             @extend .animation-transition-general;
 
             img {
                 border-radius: 50%;
                 width: 80%;
-                height: 100%;
+                //height: 100%;
             }
         }
 
